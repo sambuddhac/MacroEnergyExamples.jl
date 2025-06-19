@@ -7,10 +7,7 @@
             "edges": {
                 "discharge_edge": {
                     "unidirectional": true,
-                    "commodity": "Electricity",
-                    "wacc": 0.027,
-                    "lifetime": 20,
-                    "capital_recovery_period": 20
+                    "commodity": "Electricity"
                 },
                 "charge_edge": {
                     "unidirectional": true,
@@ -24,6 +21,7 @@
                 "storage": {
                     "min_storage_level": 0,
                     "can_retire": true,
+                    "max_capacity": -1,
                     "can_expand": true,
                     "constraints": {
                         "StorageCapacityConstraint": true,
@@ -47,6 +45,7 @@
                 "edges": {
                     "discharge_edge": {
                         "can_retire": true,
+                        "max_capacity": -1,
                         "can_expand": true,
                         "constraints": {
                             "StorageDischargeLimitConstraint": true,
@@ -84,6 +83,7 @@
                 "storage": {
                     "min_storage_level": 0,
                     "can_retire": true,
+                    "max_capacity": -1,
                     "can_expand": true,
                     "constraints": {
                         "StorageCapacityConstraint": true,
@@ -107,6 +107,7 @@
                 "edges": {
                     "discharge_edge": {
                         "can_retire": true,
+                        "max_capacity": -1,
                         "can_expand": true,
                         "constraints": {
                             "StorageDischargeLimitConstraint": true,
@@ -144,6 +145,7 @@
                 "storage": {
                     "min_storage_level": 0,
                     "can_retire": true,
+                    "max_capacity": -1,
                     "can_expand": true,
                     "constraints": {
                         "StorageCapacityConstraint": true,
@@ -167,6 +169,7 @@
                 "edges": {
                     "discharge_edge": {
                         "can_retire": true,
+                        "max_capacity": -1,
                         "can_expand": true,
                         "constraints": {
                             "StorageDischargeLimitConstraint": true,

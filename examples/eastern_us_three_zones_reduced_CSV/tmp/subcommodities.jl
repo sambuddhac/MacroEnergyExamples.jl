@@ -1,0 +1,9 @@
+abstract type Fossil_NaturalGas <: NaturalGas end
+abstract type Biomass_Wood <: Biomass end
+abstract type Biomass_Herb <: Biomass end
+abstract type Gasoline <: LiquidFuels end
+abstract type JetFuel <: LiquidFuels end
+abstract type Diesel <: LiquidFuels end
+abstract type Fossil_Gasoline <: LiquidFuels end
+abstract type Fossil_JetFuel <: LiquidFuels end
+abstract type Fossil_Diesel <: LiquidFuels end
