@@ -1,3 +1,0 @@
-# 3 zones, multi-sector example of the Eastern US grid and energy systems
-
-This is a 3-zone, multi-sector example of the Eastern US grid and energy systems. It uses the simplified CSV input format and style. Further details to be added here in the future.
